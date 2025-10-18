@@ -5,6 +5,7 @@
 
 # AIM/OBJECTIES:
 To design and implement a program using PyGAD (Genetic Algorithm) to learn the XOR problem and solve it using a Multilayer Perceptron (MLP) approach.
+
     - To understand the XOR problem, which is not linearly separable and requires a nonlinear model.
 
     - To learn how Multilayer Perceptrons (MLPs) can model non-linear decision boundaries.
