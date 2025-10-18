@@ -29,8 +29,8 @@ y = np.array([[0], [1], [1], [0]])
 
 # Build the MLP model
 model = Sequential()
-model.add(Dense(4, input_dim=2, activation='tanh'))   # Hidden layer
-model.add(Dense(1, activation='sigmoid'))             # Output layer
+model.add(Dense(4, input_dim=2, activation='tanh'))   
+model.add(Dense(1, activation='sigmoid'))             
 
 # Compile the model
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
@@ -55,4 +55,4 @@ for i in range(len(X)):
 <img width="1102" height="190" alt="image" src="https://github.com/user-attachments/assets/9227d8cb-12ab-4ae4-bf87-cd6ec82c5256" />
 
 # RESULT:
-The pyGAD program forThe final model accurancy was successfull
+The pyGAD program forThe final model accurancy was successful
